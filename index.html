@@ -1,14 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    
-    <h1>Testing</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+            integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="font-['gilroy']">
 
-</body>
-</html>
+        <div class="main  w-full relative">
+            <header
+                class="h-14 w-full flex items-center justify-between border border-b-black">
+                <i class="ri-menu-2-line text-2xl border-r-1 p-3 "></i>
+                <i class="ri-shopping-bag-line text-2xl border-l-1 p-3"></i>
+            </header>
+
+            <div
+                class="container mx-auto h-[65vh] flex flex-col justify-center items-center border-b-1">
+                <div class="mx-auto w-[80%] border-b">
+                    <h1
+                        class="text-5xl font-semibold leading-[1.4] pb-3">Kyiv
+                        <br> LuxeBouquets<sup>®</sup></h1>
+                    <p class="tracking-tight text-sm pb-8">Discover Uniquely
+                        Crafted Bouquets and Gifts for Any Occasion: Spread
+                        Joy with Our Online Flower Delivery Service</p>
+                </div>
+                <div
+                    class="flex flex-wrap flex-row items-end justify-between mx-auto w-[80%]">
+                    <div class="w-1/2 pt-5">
+                        <img src="images/Hero.png" alt
+                            class="  pr-4 border-r-1">
+                    </div>
+                    <div class="w-1/2 pl-3">
+                        <p
+                            class="text-xs leading-[1.03] tracking-tight">Experience
+                            the joy of giving with our modern floral studio.
+                            Order online and send fresh flowers, plants and
+                            gifts today.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cards">
+                <div
+                    class="flex flex-row justify-between items-center w-full  h-1/2 border-b-1">
+                    <div
+                        class="flex flex-col justify-center items-center w-1/2 h-1/2">
+                        <h1 class="text-2xl ">Fresh Flowers</h1>
+                        <p>Shop Now <i class="ri-arrow-right-line"></i></p>
+                    </div>
+                    <div class="w-1/2 border-l-1">
+                        <img src="./images/c1.jpeg" alt="Card1">
+                    </div>
+
+                </div>
+                <div
+                    class="flex flex-row justify-between items-center w-full  h-1/2 border-b-1">
+
+                    <div class="w-1/2 border-r-1">
+                        <img src="./images/c2.png" alt="Card2">
+                    </div>
+                    <div
+                        class="flex flex-col justify-center items-center w-1/2 h-1/2">
+                        <h1 class="text-2xl ">Dried Flowers</h1>
+                        <p><i class="ri-arrow-left-line"></i> Shop Now</p>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-row justify-between items-center w-full  h-1/2 border-b-1">
+                    <div
+                        class="flex flex-col justify-center items-center w-1/2 h-1/2">
+                        <h1 class="text-2xl ">Live Plants</h1>
+                        <p>Shop Now <i class="ri-arrow-right-line"></i></p>
+                    </div>
+                    <div class="w-1/2 border-l-1">
+                        <img src="./images/c3.png" alt="Card1">
+                    </div>
+
+                </div>
+                <div
+                    class="flex flex-row justify-between items-center w-full  h-1/2 border-b-1">
+
+                    <div class="w-1/2 border-r-1">
+                        <img src="./images/c4.png" alt="Card2">
+                    </div>
+                    <div
+                        class="flex flex-col justify-center items-center w-1/2 h-1/2">
+                        <h1 class="text-2xl ">Aroma Candels</h1>
+                        <p> <i class="ri-arrow-left-line"></i> Shop Now </p>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-row justify-between items-center w-full  h-1/2 border-b-1">
+                    <div
+                        class="flex flex-col justify-center items-center w-1/2 h-1/2">
+                        <h1 class="text-2xl ">Freshners</h1>
+                        <p>Shop Now <i class="ri-arrow-right-line"></i></p>
+                    </div>
+                    <div class="w-1/2 border-l-1">
+                        <img src="./images/c5.png" alt="Card1">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="about w-full">
+                <div
+                    class="h-[20vh] border-b flex justify-start items-center px-18">
+                    <h1 class="text-4xl">About Us</h1>
+                </div>
+                <div
+                    class="h-[50vh] flex flex-col justify-center items-start w-3/4 mx-auto">
+                    <h4 class="text-sm text-gray-800">OUR STORY</h4>
+                    <h1 class="text-3xl pb-5 pt-3">Kyiv LuxeBouquets</h1>
+                    <p class="text-xs text-gray-700">We are a modern local
+                        floral studio, which specializes in
+                        the design and delivery of unique bouquets. We have the
+                        best florists who carefully select each look, our studio
+                        cooperates directly with farms for growing different
+                        flowers, so we always have fresh flowers, which are
+                        collected by our florists in exquisite bouquets. We have
+                        a collection of fresh bouquets, collections of dried
+                        bouquets, house plants, as well as fragrant candles from
+                        luxury brands to create the perfect atmosphere. Make
+                        someone's day amazing by sending flowers, plants and
+                        gifts the same or next day. Ordering flowers online has
+                        never been easier.</p>
+
+                    <button class="mt-5 px-6 py-2 border">Learn More</button>
+                </div>
+            </div>
+
+            <div class="about w-full">
+                <div
+                    class="h-[20vh] border flex justify-start items-center px-18">
+                    <h1 class="text-4xl">Why Choose Us?</h1>
+                </div>
+                <div
+                    class="h-[30vh] flex flex-col justify-center items-start px-18 border">
+                    <h1 class="text-3xl pb-5 pt-3">Stylish bouquets by
+                        florists</h1>
+                    <p class="text-xs text-gray-700">At our floral studio, our
+                        professional florists craft the most elegant and stylish
+                        bouquets using only the freshest and highest quality
+                        materials available. We stay up-to-date with the latest
+                        floral design trends and offer unique arrangements that
+                        are sure to impress. Let us brighten up your day with
+                        our stunning bouquets and same-day delivery service.</p>
+                </div>
+                <div
+                    class="h-[30vh] flex flex-col justify-center items-start px-18 border">
+                    <h1 class="text-3xl pb-5 pt-3">On-time delivery</h1>
+                    <p class="text-xs text-gray-700">Never miss a moment with
+                        our on-time flower delivery service. Our couriers will
+                        deliver your bouquet personally, without boxes, to
+                        ensure it arrives in perfect condition. Trust us to
+                        deliver your thoughtful gift reliably.</p>
+                </div>
+                <div
+                    class="h-[30vh] flex flex-col justify-center items-start px-18 border">
+                    <h1 class="text-3xl pb-5 pt-3">Safe payment</h1>
+                    <p class="text-xs text-gray-700">You can feel secure when
+                        placing an order with us, as we use industry-standard
+                        security measures to protect your payment information.
+                        Your transaction will be safe and hassle-free, so you
+                        can shop with confidence.</p>
+                </div>
+                <div
+                    class="h-[30vh] flex flex-col justify-center items-start px-18 border">
+                    <h1 class="text-3xl pb-5 pt-3">Subscription by your
+                        needs</h1>
+                    <p class="text-xs text-gray-700">With our subscription
+                        service tailored to your specific needs, you can enjoy
+                        the convenience of having beautiful bouquets delivered
+                        straight to your door at regular intervals. Our flexible
+                        service is perfect for busy individuals or those who
+                        want to ensure they always have fresh flowers on hand.
+                        You'll save time and money with this hassle-free
+                        solution to your floral needs.</p>
+                </div>
+
+            </div>
+
+            <div class="follow w-full border-b-1">
+                <div class="h-3/4">
+                    <img src="./images/f1.png" class="w-full object-cover"
+                        alt="Img.">
+                </div>
+                <div
+                    class="border-t-1 flex justify-between items-center h-14 border">
+                    <div class="w-1/2 text-center border-r-1">
+                        <h1 class="text-3xl">Follow us:</h1>
+                    </div>
+                    <div class="w-1/2 text-center text-[1.8xl]">
+                        <i class="ri-instagram-line"></i>
+                        <i class="ri-pinterest-line pl-3"></i>
+                        <i class="ri-facebook-circle-line pl-3"></i>
+                        <i class="ri-twitter-line pl-3"></i>
+                        <i class="ri-telegram-line pl-3"></i>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer w-full">
+                <div class="flex w-full justify-between items-center border-b-1">
+                    <div class="w-50 flex flex-col justify-between items-center px-6 gap-4">
+                        <p>Remember to offer beautiful flowers from Kyiv
+                            LuxeBouquets Valentines Day, Mothers Day,
+                            Christmas... Reminds you 7 days before. No spam or
+                            sharing your address</p>
+                            <div class="flex flex-col  w-[96%] gap-4">
+                                <input type="text" placeholder="Enter your email" class="border-2 p-2">
+                                <button class="px-4 py-3 bg-black text-white">REMIND</button>
+                            </div>
+                    </div>
+                    <div class="w-[1px] border-1 h-100"></div>
+                    <div class="w-50 flex flex-col justify-between items-center px-6  gap-4">
+                        <p>Remember to offer beautiful flowers from Kyiv
+                            LuxeBouquets Valentines Day, Mothers Day,
+                            Christmas... Reminds you 7 days before. No spam or
+                            sharing your address</p>
+                            <div class="flex flex-col  w-[96%] gap-4">
+                                <input type="text" placeholder="Enter your email" class="border-2 p-2">
+                                <button class="px-4 py-3 bg-black text-white">REMIND</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="flex w-full justify-between items-center border-b-1">
+                    <div class="w-50 flex flex-col justify-between items-center px-6 gap-4">
+                        <p>Remember to offer beautiful flowers from Kyiv
+                            LuxeBouquets Valentines Day, Mothers Day,
+                            Christmas... Reminds you 7 days before. No spam or
+                            sharing your address</p>
+                            <div class="flex flex-col  w-[96%] gap-4">
+                                <input type="text" placeholder="Enter your email" class="border-2 p-2">
+                                <button class="px-4 py-3 bg-black text-white">REMIND</button>
+                            </div>
+                    </div>
+                    <div class="w-[1px] border-1 h-100"></div>
+                    <div class="w-50 flex flex-col justify-between items-center px-6  gap-4">
+                        <p>Remember to offer beautiful flowers from Kyiv
+                            LuxeBouquets Valentines Day, Mothers Day,
+                            Christmas... Reminds you 7 days before. No spam or
+                            sharing your address</p>
+                            <div class="flex flex-col  w-[96%] gap-4">
+                                <input type="text" placeholder="Enter your email" class="border-2 p-2">
+                                <button class="px-4 py-3 bg-black text-white">REMIND</button>
+                            </div>
+                    </div>
+                </div>
+                
+            </footer>
+        </body>
+    </html>
